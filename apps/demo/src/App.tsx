@@ -5,7 +5,7 @@ import {
   Spinner,
   ThemeProvider,
   useTheme,
-} from '@astra-ui-lib/core';
+} from '@astra-ui/core';
 
 /* ------------------------------------------------------------------ */
 /*  Providers                                                          */
@@ -113,7 +113,7 @@ function Hero() {
 
         <div className="animate-fade-up delay-3 inline-flex items-center">
           <code className="font-code text-sm bg-white/[0.03] border border-white/[0.06] rounded-xl px-6 py-3.5 text-slate-300 select-all">
-            pnpm add @astra-ui-lib/core
+            pnpm add @astra-ui/core
           </code>
         </div>
       </div>
@@ -379,7 +379,7 @@ function Footer() {
             GitHub
           </a>
           <a
-            href="https://www.npmjs.com/package/@astra-ui-lib/core"
+            href="https://www.npmjs.com/package/@astra-ui/core"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-slate-500 hover:text-white transition-colors duration-200"

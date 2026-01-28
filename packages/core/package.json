@@ -1,5 +1,5 @@
 {
-  "name": "@astra-ui-lib/core",
+  "name": "@astra-ui/core",
   "description": "A modern React component library built with Tailwind CSS",
   "version": "0.1.1",
   "license": "MIT",
@@ -35,7 +35,7 @@
   "scripts": {
     "prebuild": "rm -rf dist",
     "build": "rollup -c rollup.config.mjs",
-    "dev": "pnpm run build --watch",
+    "dev": "yarn build --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "test": "vitest run"
@@ -45,6 +45,7 @@
     "@rollup/plugin-node-resolve": "^16.0.1",
     "@rollup/plugin-terser": "^0.4.4",
     "@rollup/plugin-typescript": "^12.1.2",
+    "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
@@ -80,7 +81,6 @@
     "@floating-ui/react-dom": "^2.1.7",
     "@tailwindcss/forms": "^0.5.10",
     "class-variance-authority": "^0.7.1",
-    "date-fns": "^4.1.0",
     "framer-motion": "^12.34.0",
     "tailwind-merge": "^3.4.0",
     "tailwind-scrollbar": "^4.0.2"

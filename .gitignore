@@ -13,5 +13,11 @@ public/dist
 storybook-static/
 .idea
 
-# Contentlayer
-.contentlayer
+# Yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*

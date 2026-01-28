@@ -1,5 +1,5 @@
 {
-  "name": "@astra-ui-lib/demo",
+  "name": "@astra-ui/demo",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@astra-ui-lib/core": "workspace:*",
+    "@astra-ui/core": "workspace:*",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
