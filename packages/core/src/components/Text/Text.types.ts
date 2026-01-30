@@ -2,15 +2,14 @@ import { ElementType, ReactElement } from 'react';
 import { PolymorphicComponentPropWithRef } from '@types';
 
 export type TextColor =
-  | 'white'
-  | 'blue'
-  | 'red'
-  | 'green'
-  | 'yellow'
-  | 'purple'
-  | 'gray'
-  | 'dark'
-  | 'black';
+  | 'default'
+  | 'muted'
+  | 'subtle'
+  | 'accent'
+  | 'success'
+  | 'warning'
+  | 'error'
+  | 'white';
 export type TextLeading =
   | '3'
   | '4'

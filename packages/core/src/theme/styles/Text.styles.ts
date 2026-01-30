@@ -1,17 +1,16 @@
 import { cva } from 'class-variance-authority';
 
-const base = cva([], {
+const base = cva(['font-body'], {
   variants: {
     color: {
+      default: 'text-fg',
+      muted: 'text-fg-muted',
+      subtle: 'text-fg-subtle',
+      accent: 'text-accent',
+      success: 'text-status-success',
+      warning: 'text-status-warning',
+      error: 'text-status-error',
       white: 'text-white',
-      blue: 'text-blue-500',
-      red: 'text-red-500',
-      green: 'text-green-500',
-      yellow: 'text-yellow-400',
-      purple: 'text-purple-500',
-      gray: 'text-gray-600',
-      dark: 'text-gray-900',
-      black: 'text-black',
     },
     leading: {
       '3': 'leading-3',

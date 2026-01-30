@@ -2,27 +2,27 @@ import { BadgeProps, BadgeVariant } from '@components/Badge/Badge.types';
 
 export const badgeVariants: Record<BadgeVariant, BadgeProps> = {
   primary: {
-    color: 'purple',
+    color: 'accent',
     tone: 'solid',
   },
   secondary: {
-    color: 'gray',
+    color: 'default',
     tone: 'solid',
   },
   danger: {
-    color: 'red',
+    color: 'error',
     tone: 'solid',
   },
   success: {
-    color: 'green',
+    color: 'success',
     tone: 'solid',
   },
   warning: {
-    color: 'yellow',
+    color: 'warning',
     tone: 'solid',
   },
   info: {
-    color: 'blue',
-    tone: 'solid',
+    color: 'accent',
+    tone: 'light',
   },
 };

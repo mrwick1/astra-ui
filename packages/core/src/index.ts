@@ -3,9 +3,6 @@ export { Badge } from './components/Badge';
 export type {
   BadgeProps,
   BadgeColor,
-  BadgeRadius,
-  BadgeShadow,
-  BadgeShadowColor,
   BadgeSize,
   BadgeTone,
   BadgeVariant,
