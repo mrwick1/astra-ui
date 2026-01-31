@@ -7,10 +7,7 @@ import { forwardRef, Ref, useMemo } from 'react';
 import { twMerge } from 'tailwind-merge';
 
 const defaultProps: Partial<BadgeProps> = {
-  color: 'dark',
-  radius: 'lg',
-  shadow: 'none',
-  shadowColor: 'none',
+  color: 'default',
   size: 'sm',
   tone: 'solid',
 };
@@ -22,9 +19,6 @@ const Badge: BadgeComponent = forwardRef((props: BadgeProps, ref?: Ref<HTMLSpanE
     children,
     className = '',
     color,
-    radius,
-    shadow,
-    shadowColor,
     size,
     tone,
     variant,
@@ -40,14 +34,11 @@ const Badge: BadgeComponent = forwardRef((props: BadgeProps, ref?: Ref<HTMLSpanE
       theme({
         className,
         color,
-        radius,
-        shadow,
-        shadowColor,
         size,
         tone,
       })
     );
-  }, [theme, className, color, radius, shadow, shadowColor, size, tone]);
+  }, [theme, className, color, size, tone]);
 
   const id = usePropId(props.id);
 

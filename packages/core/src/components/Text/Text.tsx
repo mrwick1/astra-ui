@@ -7,7 +7,7 @@ import { PolymorphicComponentProp, PolymorphicRef } from '../../types';
 import { TextComponent, TextProps } from './Text.types';
 
 const defaultProps: Partial<TextProps> = {
-  color: 'dark',
+  color: 'default',
   leading: 'normal',
   size: 'base',
   tracking: 'normal',

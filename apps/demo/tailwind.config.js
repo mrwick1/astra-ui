@@ -1,3 +1,5 @@
+import coreConfig from '../../packages/core/tailwind.config.ts';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -7,10 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      ...coreConfig.theme.extend,
       fontFamily: {
-        heading: ['Syne', 'system-ui', 'sans-serif'],
-        body: ['Manrope', 'system-ui', 'sans-serif'],
-        code: ['JetBrains Mono', 'ui-monospace', 'monospace'],
+        ...coreConfig.theme.extend.fontFamily,
+        mono: ['JetBrains Mono', 'ui-monospace', 'monospace'],
       },
     },
   },
