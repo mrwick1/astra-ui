@@ -46,12 +46,12 @@ export { useKeypress } from './hooks/use-keypress';
 export { useVerticalArrows } from './hooks/use-vertical-arrows.hook';
 export { useHorizontalArrows } from './hooks/use-horizontal-arrows.hook';
 export { useFocusTrap } from './hooks/use-focus-trap.hook';
-export { useIsoMorphicEffect } from './hooks/use-isomorphic-effect';
+export { useIsomorphicLayoutEffect } from './hooks/use-isomorphic-effect';
 export { createElementContext } from './hooks/use-element-context.hook';
 export { createIndependentContext } from './hooks/use-independent-context.hook';
 
 // Utils
-export { toSlug, useIsomorphicLayoutEffect, usePrevious, usePropId } from './utils';
+export { toSlug, usePrevious, usePropId } from './utils';
 
 // Animations
 export { useFade } from './animations';
