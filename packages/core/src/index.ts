@@ -1,4 +1,7 @@
 // Components
+export { Avatar, AvatarGroup } from './components/Avatar';
+export type { AvatarProps, AvatarGroupProps, AvatarSize } from './components/Avatar';
+
 export { Badge } from './components/Badge';
 export type {
   BadgeProps,
@@ -7,6 +10,15 @@ export type {
   BadgeTone,
   BadgeVariant,
 } from './components/Badge';
+
+export { Button } from './components/Button';
+export type { ButtonProps, ButtonVariant, ButtonColor, ButtonSize } from './components/Button';
+
+export { Card } from './components/Card';
+export type { CardProps, CardHeaderProps, CardBodyProps, CardFooterProps } from './components/Card';
+
+export { Input } from './components/Input';
+export type { InputProps, InputSize } from './components/Input';
 
 export { Text } from './components/Text';
 export type {
@@ -21,6 +33,14 @@ export type {
 
 export { Spinner } from './components/Spinner';
 export type { SpinnerProps } from './components/Spinner';
+
+// FormControl (exported for use with form components)
+export {
+  FormControl,
+  FormLabel,
+  FormError,
+} from './components/_internal/FormControl';
+export type { FormControlProps, FormLabelProps, FormErrorProps } from './components/_internal/FormControl';
 
 // Theme
 export {
