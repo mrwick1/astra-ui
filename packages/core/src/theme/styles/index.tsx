@@ -2,6 +2,8 @@ export * from './Avatar.styles';
 export * from './Badge.styles';
 export * from './Button.styles';
 export * from './Card.styles';
+export * from './Checkbox.styles';
 export * from './Input.styles';
+export * from './Select.styles';
 export * from './Spinner.styles';
 export * from './Text.styles';

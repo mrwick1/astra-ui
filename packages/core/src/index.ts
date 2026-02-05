@@ -17,8 +17,17 @@ export type { ButtonProps, ButtonVariant, ButtonColor, ButtonSize } from './comp
 export { Card } from './components/Card';
 export type { CardProps, CardHeaderProps, CardBodyProps, CardFooterProps } from './components/Card';
 
+export { Checkbox } from './components/Checkbox';
+export type { CheckboxProps, CheckboxSize } from './components/Checkbox';
+
 export { Input } from './components/Input';
 export type { InputProps, InputSize } from './components/Input';
+
+export { Select } from './components/Select';
+export type { SelectProps, SelectOption, SelectSize } from './components/Select';
+
+export { Switch } from './components/Switch';
+export type { SwitchProps, SwitchSize } from './components/Switch';
 
 export { Text } from './components/Text';
 export type {

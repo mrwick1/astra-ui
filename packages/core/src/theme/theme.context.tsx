@@ -10,6 +10,7 @@ type ThemeComponents = {
   Avatar: typeof styles.avatarStyles.base;
   Badge: typeof styles.badgeStyles.base;
   Button: typeof styles.buttonStyles.base;
+  Checkbox: typeof styles.checkboxStyles.base;
   Input: typeof styles.inputStyles.base;
   Spinner: typeof styles.spinnerStyles.base;
   Text: typeof styles.textStyles.base;
@@ -20,6 +21,7 @@ const defaultTheme: Theme = {
     Avatar: styles.avatarStyles.base,
     Badge: styles.badgeStyles.base,
     Button: styles.buttonStyles.base,
+    Checkbox: styles.checkboxStyles.base,
     Input: styles.inputStyles.base,
     Spinner: styles.spinnerStyles.base,
     Text: styles.textStyles.base,
