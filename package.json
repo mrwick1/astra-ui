@@ -1,5 +1,5 @@
 {
-  "name": "@astra-ui/astra-ui",
+  "name": "@astra-ui-lib/astra-ui",
   "private": true,
   "scripts": {
     "build": "turbo run build",

@@ -1,5 +1,5 @@
 {
-  "name": "@astra-ui/core",
+  "name": "@astra-ui-lib/core",
   "description": "A modern React component library built with Tailwind CSS",
   "version": "0.1.0",
   "license": "MIT",
