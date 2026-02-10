@@ -1,15 +1,19 @@
 'use client';
+import { textVariants } from '@theme/variants/Text.variants';
 import { createContext, Provider, useContext } from 'react';
 
 export type Variant = {
   components: VariantComponents;
 };
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-type VariantComponents = {};
+type VariantComponents = {
+  Text: typeof textVariants;
+};
 
 const defaultVariant: Variant = {
-  components: {},
+  components: {
+    Text: textVariants,
+  },
 };
 
 export type VariantContextType = {

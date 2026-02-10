@@ -8,11 +8,13 @@ export type Theme = {
 
 type ThemeComponents = {
   Spinner: typeof styles.spinnerStyles.base;
+  Text: typeof styles.textStyles.base;
 };
 
 const defaultTheme: Theme = {
   components: {
     Spinner: styles.spinnerStyles.base,
+    Text: styles.textStyles.base,
   },
 };
 
