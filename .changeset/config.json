@@ -6,6 +6,6 @@
   "linked": [],
   "access": "public",
   "updateInternalDependencies": "patch",
-  "ignore": ["@astra-ui/docs", "@astra-ui/storybook", "@astra-ui/dashboard", "@astra-ui/dashboard-vite"],
+  "ignore": [],
   "baseBranch": "master"
 }
