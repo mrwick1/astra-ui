@@ -1,0 +1,94 @@
+{
+  "name": "@astra-ui/core",
+  "description": "A modern React component library built with Tailwind CSS",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "name": "Arjun KR"
+  },
+  "homepage": "https://github.com/mrwick1/astra-ui",
+  "repository": {
+    "url": "https://github.com/mrwick1/astra-ui.git",
+    "type": "git",
+    "directory": "packages/core"
+  },
+  "bugs": {
+    "url": "https://github.com/mrwick1/astra-ui/issues"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "tailwind",
+    "tailwindcss",
+    "nextjs",
+    "components",
+    "ui-kit"
+  ],
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "files": [
+    "dist/**",
+    "README.md"
+  ],
+  "scripts": {
+    "prebuild": "rm -rf dist",
+    "build": "rollup -c rollup.config.mjs",
+    "dev": "pnpm run build --watch",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.2",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest-axe": "^3.5.9",
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^1.11.3",
+    "eslint-plugin-react": "^7.33.2",
+    "jest-axe": "^8.0.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^23.0.1",
+    "prettier": "^3.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^4.9.1",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-preserve-directives": "^0.3.1",
+    "rollup-plugin-typescript-paths": "^1.5.0",
+    "tsc-alias": "^1.8.8",
+    "tslib": "^2.6.2",
+    "typescript": "^5.3.3",
+    "vite-tsconfig-paths": "^4.2.3",
+    "vitest": "^1.1.0"
+  },
+  "dependencies": {
+    "@floating-ui/react": "^0.26.4",
+    "@floating-ui/react-dom": "^2.0.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "class-variance-authority": "^0.7.0",
+    "date-fns": "^2.30.0",
+    "framer-motion": "^10.18.0",
+    "tailwind-merge": "^2.2.0",
+    "tailwind-scrollbar": "^3.0.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
