@@ -15,11 +15,11 @@
     "check": "manypkg check"
   },
   "dependencies": {
-    "@changesets/cli": "^2.26.0",
+    "@changesets/cli": "^2.29.8",
     "@manypkg/cli": "latest",
-    "eslint": "^8.35.0",
-    "prettier": "^3.0.3",
-    "turbo": "^1.8.2"
+    "eslint": "^8.57.0",
+    "prettier": "^3.8.1",
+    "turbo": "^2.8.3"
   },
   "prettier": {
     "printWidth": 100,
@@ -27,5 +27,5 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "packageManager": "pnpm@7.15.0"
+  "packageManager": "pnpm@9.15.4"
 }
