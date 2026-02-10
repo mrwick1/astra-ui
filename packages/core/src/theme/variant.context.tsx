@@ -1,5 +1,6 @@
 'use client';
 import { textVariants } from '@theme/variants/Text.variants';
+import { badgeVariants } from '@theme/variants/Badge.variants';
 import { createContext, Provider, useContext } from 'react';
 
 export type Variant = {
@@ -7,11 +8,13 @@ export type Variant = {
 };
 
 type VariantComponents = {
+  Badge: typeof badgeVariants;
   Text: typeof textVariants;
 };
 
 const defaultVariant: Variant = {
   components: {
+    Badge: badgeVariants,
     Text: textVariants,
   },
 };

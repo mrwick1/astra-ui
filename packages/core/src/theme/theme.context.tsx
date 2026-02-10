@@ -7,12 +7,14 @@ export type Theme = {
 };
 
 type ThemeComponents = {
+  Badge: typeof styles.badgeStyles.base;
   Spinner: typeof styles.spinnerStyles.base;
   Text: typeof styles.textStyles.base;
 };
 
 const defaultTheme: Theme = {
   components: {
+    Badge: styles.badgeStyles.base,
     Spinner: styles.spinnerStyles.base,
     Text: styles.textStyles.base,
   },
