@@ -3,7 +3,7 @@ import { describe, it } from 'vitest';
 import { Text } from './';
 import { createRef } from 'react';
 import { axe, toHaveNoViolations } from 'jest-axe';
-import { act } from 'react-dom/test-utils';
+import { act } from 'react';
 
 describe('Text', () => {
   it('should render', () => {
