@@ -1,4 +1,7 @@
 // Components
+export { Alert } from './components/Alert';
+export type { AlertProps, AlertVariant } from './components/Alert';
+
 export { Avatar, AvatarGroup } from './components/Avatar';
 export type { AvatarProps, AvatarGroupProps, AvatarSize } from './components/Avatar';
 
@@ -40,20 +43,14 @@ export type {
   TextVariant,
 } from './components/Text';
 
-export { Spinner } from './components/Spinner';
-export type { SpinnerProps } from './components/Spinner';
-
-export { Alert } from './components/Alert';
-export type { AlertProps, AlertVariant } from './components/Alert';
-
 export { ToastContainer, toast } from './components/Toast';
 export type { ToastData, ToastVariant, ToastContainerProps } from './components/Toast';
 
-export { Modal } from './components/Modal';
-export type { ModalProps, ModalHeaderProps, ModalBodyProps, ModalFooterProps } from './components/Modal';
-
 export { Tooltip } from './components/Tooltip';
 export type { TooltipProps } from './components/Tooltip';
+
+export { Spinner } from './components/Spinner';
+export type { SpinnerProps } from './components/Spinner';
 
 // FormControl (exported for use with form components)
 export {

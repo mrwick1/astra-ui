@@ -1,3 +1,4 @@
+export * from './Alert.styles';
 export * from './Avatar.styles';
 export * from './Badge.styles';
 export * from './Button.styles';
@@ -7,3 +8,6 @@ export * from './Input.styles';
 export * from './Select.styles';
 export * from './Spinner.styles';
 export * from './Text.styles';
+export * from './Toast.styles';
+export * from './Tooltip.styles';
+export * from './Modal.styles';

@@ -7,6 +7,7 @@ export type Theme = {
 };
 
 type ThemeComponents = {
+  Alert: typeof styles.alertStyles.base;
   Avatar: typeof styles.avatarStyles.base;
   Badge: typeof styles.badgeStyles.base;
   Button: typeof styles.buttonStyles.base;
@@ -18,6 +19,7 @@ type ThemeComponents = {
 
 const defaultTheme: Theme = {
   components: {
+    Alert: styles.alertStyles.base,
     Avatar: styles.avatarStyles.base,
     Badge: styles.badgeStyles.base,
     Button: styles.buttonStyles.base,
